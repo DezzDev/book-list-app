@@ -1,0 +1,57 @@
+.container-list-reading{
+	background-color: darkslategray;
+	text-align: center;
+	height: 100%;
+}
+
+.booksContainer{
+	display: grid;
+	grid-template-columns: repeat( auto-fit, 200px );
+	gap: 1rem;
+}
+
+
+
+.list-reading{	
+	
+	display: grid;
+	grid-template-columns: auto;
+	gap: 4rem;
+	justify-items: center;
+}
+
+.bookContainer{
+	width: 200px;
+	transition: width .5s;
+	
+}
+
+.bookContainer:hover{
+	width: 210px;
+	
+}
+
+.book-of-reading-list{
+	position: absolute;
+	
+}
+
+.book-of-reading-list img{
+	position: absolute;
+	top: 0;
+	transition: all .5s;
+}
+
+.book-of-reading-list img:hover{
+	top: -10px;
+	width: 210px;
+	height: 310px;
+}
+
+
+
+.book img{
+	height: 300px;
+	width: 200px;
+	border-radius: 10px;
+}
